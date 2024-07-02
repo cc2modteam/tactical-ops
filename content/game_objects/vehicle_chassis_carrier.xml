@@ -3329,6 +3329,19 @@
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
 					tx="-15.57" ty="12.19" tz="-23.28"/>
 		</screen>
+		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="12" type="1" refresh_interval="2.00000000e+00" help_tag="veh_con_screen_air_traffic">
+			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
+					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
+					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
+					   tx="-15.5" ty="14" tz="-24"/>
+		</screen>
+
+		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="13" type="1" refresh_interval="2.00000000e+00" help_tag="veh_con_screen_air_traffic">
+			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
+					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
+					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
+					   tx="-15.5" ty="14" tz="-26"/>
+		</screen>
 	</screens>
 	<doors>
 		<door name="door bridge cent" display_name_loc="0" type="1" sliding_time="60" body_index="0">
