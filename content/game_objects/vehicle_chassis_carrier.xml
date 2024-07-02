@@ -3353,7 +3353,7 @@
 			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
 					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
 					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
-					   tx="-15.5" ty="14" tz="-24"/>
+					   tx="-15.5" ty="14" tz="-23.3"/>
 		</screen>
 		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
@@ -3380,7 +3380,7 @@
 			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
 					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
 					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
-					   tx="-15.5" ty="14" tz="-26"/>
+					   tx="-15.5" ty="14" tz="-27.7"/>
 		</screen>
 		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_ship_log.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
@@ -3403,6 +3403,18 @@
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
 					tx="-15.57" ty="12.19" tz="-27.78"/>
 		</screen>
+
+		<!-- holomap-ish wall -->
+		<screen name="holomap_screen2" display_name_loc="517" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="2" refresh_interval="2" help_tag="holomap_screen_map">
+			<transform
+m00="0.0" m01="0.0" m02="-1.0"
+m10="-1.0" m11="0.0" m12="0.0"
+m20="0.0" m21="1.0" m22="0.0"
+
+					tx="-15.22" ty="13.3" tz="-25.5"/>
+		</screen>
+
+
 		<!-- end specops -->
 
 	</screens>
