@@ -38,14 +38,16 @@
 			<meshes/>
 			<boxes>
 				<box>
-					<size x="8" y="3" z="2"/>
+					<!-- fwd -->
+					<size x="8" y="0.2" z="2"/>
 					<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
-							   tx="0.2" ty="0" tz="0"/>
+							   tx="-4" ty="0" tz="0"/>
 				</box>
 				<box>
-					<size x="2" y="3" z="10"/>
+					<!-- stb side -->
+					<size x="3" y="0.2" z="11"/>
 					<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
-							   tx="-1" ty="0" tz="-6.25"/>
+							   tx="-0.3" ty="0" tz="-5.2"/>
 				</box>
 			</boxes>
 			<spheres/>
@@ -3236,12 +3238,19 @@
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
 					tx="-15.57" ty="12.19" tz="-25.03"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="12" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="12" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
 					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
 					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
 					tx="-15.57" ty="12.19" tz="-24.03"/>
+		</screen>
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="12" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+			<transform
+					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
+					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
+					m20="0.6432695" m21="0.765637" m22="0.0020578"
+					tx="-15.57" ty="12.19" tz="-23.28"/>
 		</screen>
 	</screens>
 	<doors>
