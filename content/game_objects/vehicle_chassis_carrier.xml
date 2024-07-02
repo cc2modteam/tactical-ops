@@ -3355,7 +3355,7 @@
 					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
 					   tx="-15.5" ty="14" tz="-23.3"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="10" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
 					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
 					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
