@@ -37,6 +37,16 @@
 				    tx="-14" ty="12.5" tz="-22"/>
 			<meshes/>
 			<boxes>
+				<box>
+					<size x="8" y="3" z="2"/>
+					<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
+							   tx="0.2" ty="0" tz="0"/>
+				</box>
+				<box>
+					<size x="2" y="3" z="10"/>
+					<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
+							   tx="-1" ty="0" tz="-6.25"/>
+				</box>
 			</boxes>
 			<spheres/>
 		</body>
@@ -380,26 +390,50 @@
 		<mesh file="meshes/aircraft_carrier/bridge_attachments/light_red_additve.mesh" name="bridge_warning_light_additive" lod="0" body="0" is_paint_dirt="false">
 			<transform m00="-4.37113883e-08" m01="0.00000000e+00" m02="1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="-1.00000000e+00" m21="0.00000000e+00" m22="-4.37113883e-08" tx="-2.77394066e+01" ty="3.17261829e+01" tz="-2.53500347e+01"/>
 		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="0" is_paint_dirt="false">
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
 					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
 					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-15.5" ty="11" tz="-26"/>
+					tx="-1.5" ty="-1.5" tz="-5"/>
 		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="0" is_paint_dirt="false">
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
 					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
 					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-15.5" ty="11" tz="-25"/>
+					tx="-1.5" ty="-1.5" tz="-4.25"/>
 		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="0" is_paint_dirt="false">
+
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
 					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
 					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-15.5" ty="11" tz="-24"/>
+					tx="-1.5" ty="-1.5" tz="-3.5"/>
+		</mesh>
+
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.5" ty="-1.5" tz="-2.75"/>
+		</mesh>
+
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.5" ty="-1.5" tz="-2"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.5" ty="-1.5" tz="-1.25"/>
 		</mesh>
 
 
