@@ -34,15 +34,9 @@
 					m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
 					m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
-				    tx="-16" ty="12.5" tz="-17.6"/>
+				    tx="-14" ty="12.5" tz="-22"/>
 			<meshes/>
 			<boxes>
-				<box>
-					<size x="7" y="3" z="1.5"/>
-					<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
-							   tx="0" ty="-1" tz="0"/>
-				</box>
-		
 			</boxes>
 			<spheres/>
 		</body>
@@ -408,31 +402,40 @@
 					tx="-15.5" ty="11" tz="-24"/>
 		</mesh>
 
-		<!-- stb side wall -->
-		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh"  name="hangar room" lod="0" body="0" is_paint_dirt="false">
-			<transform
-					m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
-					tx="-14" ty="12.5" tz="-24"/>
-		</mesh>
 
-		<mesh file="meshes/vehicles/shipping_containers/shipping_container_shipping_container.mesh" name="container_0" lod="0" body="0" is_paint_dirt="false">
-			<transform
-					m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
-				    tx="-16" ty="12.5" tz="-17.6"/>
-		</mesh>
-
-		<!-- fwd side wall -->
-		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh"  name="hangar room" lod="0" body="0" is_paint_dirt="false">
+		<!-- fwd wall -->
+		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh"  name="hangar room" lod="0" body="3" is_paint_dirt="false">
 			<transform
 					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
 					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-12.65" ty="12.5" tz="-17.6"/>
+					tx="0.2" ty="0" tz="0"/>
 		</mesh>
+
+		<!-- stb walls -->
+		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh"  name="hangar room" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
+					tx="-1.01" ty="0" tz="-5"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh"  name="hangar room" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00"
+					tx="-1" ty="0" tz="-10.75"/>
+		</mesh>
+
+		<mesh file="meshes/vehicles/shipping_containers/shipping_container_shipping_container.mesh" name="container_0" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+				    tx="-1.8" ty="0" tz="-14"/>
+		</mesh>
+
 	</meshes>
 	<wheels/>
 	<attachments>
