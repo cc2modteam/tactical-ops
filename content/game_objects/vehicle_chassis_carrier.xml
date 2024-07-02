@@ -400,7 +400,98 @@
 			<transform m00="-4.37113883e-08" m01="0.00000000e+00" m02="1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="-1.00000000e+00" m21="0.00000000e+00" m22="-4.37113883e-08" tx="-2.77394066e+01" ty="3.17261829e+01" tz="-2.53500347e+01"/>
 		</mesh>
 
+		<!-- specops -->
 
+		<!-- station 1 -->
+
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="1" m01="0" m02="0"
+					m10="0" m11="1" m12="0"
+					m20="0" m21="0" m22="1"
+					tx="-2.5" ty="-1.5" tz="-0.5"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-1.5" ty="-1.5" tz="-1.25"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/captains_seat.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-2.5" ty="-1.5" tz="-2"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/control_stick.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.8" ty="-0.6" tz="-2.2"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/thrust_lever.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.8" ty="-0.6" tz="-1.8"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-1.5" ty="-1.5" tz="-2"/>
+		</mesh>
+
+		<!-- station 2 -->
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-1.5" ty="-1.5" tz="-2.75"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/captains_seat.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-2.5" ty="-1.5" tz="-3.5"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/control_stick.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.8" ty="-0.6" tz="-3.7"/>
+		</mesh>2
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/thrust_lever.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
+					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
+					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.8" ty="-0.6" tz="-3.3"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-1.5" ty="-1.5" tz="-3.5"/>
+		</mesh>
+		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+			<transform
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
+					tx="-1.5" ty="-1.5" tz="-4.25"/>
+		</mesh>
+
+		<!-- station 3 -->
 		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
 					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
@@ -415,67 +506,27 @@
 					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
 					tx="-2.5" ty="-1.5" tz="-5"/>
 		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/control_stick.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-1.5" ty="-1.5" tz="-4.25"/>
+					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.8" ty="-0.6" tz="-5.2"/>
 		</mesh>
-
-
-		<mesh file="meshes/aircraft_carrier/bridge_attachments/captains_seat.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
+		<mesh file="meshes/aircraft_carrier/bridge_attachments/thrust_lever.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
+					m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00"
 					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-2.5" ty="-1.5" tz="-3.5"/>
+					m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					tx="-1.8" ty="-0.6" tz="-4.8"/>
 		</mesh>
 		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-1.5" ty="-1.5" tz="-3.5"/>
-		</mesh>
-
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-1.5" ty="-1.5" tz="-2.75"/>
-		</mesh>
-
-		<mesh file="meshes/aircraft_carrier/bridge_attachments/captains_seat.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-2.5" ty="-1.5" tz="-2"/>
-		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-1.5" ty="-1.5" tz="-2"/>
-		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
-					tx="-1.5" ty="-1.5" tz="-1.25"/>
-		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform
-					m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00"
-					m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00"
-					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
+					m00="0" m01="0" m02="-1"
+					m10="0" m11="1" m12="0"
+					m20="1" m21="0" m22="0"
 					tx="-1.5" ty="-1.5" tz="-5.75"/>
 		</mesh>
-
 
 		<!-- fwd wall -->
 		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh"  name="hangar room" lod="0" body="3" is_paint_dirt="false">
@@ -522,6 +573,8 @@
 					m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00"
 				    tx="-1.35" ty="0" tz="-16.8"/>
 		</mesh>
+
+		<!-- end specops -->
 
 	</meshes>
 	<wheels/>
@@ -1164,6 +1217,21 @@
 			<transform m00="7.07106709e-01" m01="0.00000000e+00" m02="7.07106829e-01" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="-7.07106829e-01" m21="0.00000000e+00" m22="7.07106709e-01" tx="-2.95631790e+01" ty="2.90019665e+01" tz="-2.42689095e+01"/>
 		</seat>
 
+		<!-- specops bow -->
+		<seat name="vehicle_control_h" display_name_loc="0" type="0" help_tag="">
+			<transform
+					   m00="0" m01="0" m02="-1"
+					   m10="0" m11="1" m12="0"
+					   m20="1" m21="0" m22="0"
+					   tx="-16.5" ty="11.1" tz="-24.03"/>
+		</seat>
+		<seat name="vehicle_control_h" display_name_loc="0" type="0" help_tag="">
+			<transform
+		 			   m00="0" m01="0" m02="-1"
+					   m10="0" m11="1" m12="0"
+					   m20="1" m21="0" m22="0"
+					   tx="-16.5" ty="11.1" tz="-25.53"/>
+		</seat>
 		<seat name="vehicle_control_h" display_name_loc="0" type="0" help_tag="">
 			<transform
 					   m00="0" m01="0" m02="-1"
@@ -1172,21 +1240,7 @@
 					   tx="-16.5" ty="11.1" tz="-27.03"/>
 		</seat>
 
-		<seat name="vehicle_control_h" display_name_loc="0" type="0" help_tag="">
-			<transform
-		 			   m00="0" m01="0" m02="-1"
-					   m10="0" m11="1" m12="0"
-					   m20="1" m21="0" m22="0"
-					   tx="-16.5" ty="11.1" tz="-25.53"/>
-		</seat>
-
-		<seat name="vehicle_control_h" display_name_loc="0" type="0" help_tag="">
-			<transform
-					   m00="0" m01="0" m02="-1"
-					   m10="0" m11="1" m12="0"
-					   m20="1" m21="0" m22="0"
-					   tx="-16.5" ty="11.1" tz="-24.03"/>
-		</seat>
+		<!-- end specops aft -->
 	</seats>
 	<button_panels>
 		<button_panel name="docking_controls_air" body_index="0" texture="docking_controls_air">
@@ -3259,7 +3313,7 @@
 		<screen name="screen_com_r" display_name_loc="671" script_file_name="scripts/screen_power.lua" body_index="0" seat_index="9" type="0" refresh_interval="4.00000000e+00" help_tag="power_screen_power">
 			<transform m00="7.07106769e-01" m01="0.00000000e+00" m02="7.07106769e-01" m10="3.54405463e-01" m11="8.65328491e-01" m12="-3.54405463e-01" m20="-6.11879587e-01" m21="5.01205027e-01" m22="6.11879706e-01" tx="-3.02128944e+01" ty="2.99732075e+01" tz="-2.36922340e+01"/>
 		</screen>
-		<screen name="screen_com_l" display_name_loc="669" script_file_name="scripts/screen_transmissions.lua" body_index="0" seat_index="8" type="0" refresh_interval="4.00000000e+00" help_tag="">
+		<screen name="screen_com_l" display_name_loc="669" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="8" type="3" refresh_interval="4.00000000e+00" help_tag="">
 			<transform m00="7.07106769e-01" m01="0.00000000e+00" m02="7.07106769e-01" m10="3.53756279e-01" m11="8.65859687e-01" m12="-3.53756279e-01" m20="-6.12255275e-01" m21="5.00286937e-01" m22="6.12255275e-01" tx="-3.10656242e+01" ty="2.99733772e+01" tz="-2.45621796e+01"/>
 		</screen>
 		<screen name="screen_com_top" display_name_loc="670" script_file_name="scripts/screen_damage.lua" body_index="0" seat_index="8" type="1" refresh_interval="2.00000000e+00" help_tag="repair_screen_repair">
@@ -3278,20 +3332,55 @@
 			<transform m00="2.98023224e-08" m01="2.98023188e-08" m02="1.00000000e+00" m10="7.07106650e-01" m11="-7.07106888e-01" m12="-1.09084066e-08" m20="7.07106888e-01" m21="7.07106709e-01" m22="-4.51475088e-08" tx="-3.19156075e+01" ty="3.13865261e+01" tz="-2.75836449e+01"/>
 		</screen>
 
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_propulsion.lua" body_index="0" seat_index="10" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<!-- specops -->
+
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_transmissions.lua" body_index="0" seat_index="10" type="0" refresh_interval="2" help_tag="">
 			<transform
-					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
-					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
-					m20="0.6432695" m21="0.765637" m22="0.0020578"
-					tx="-15.57" ty="12.19" tz="-27.78"/>
+					m00="1.0" m01="0.0" m02="0.0"
+					m10="0.0" m11="0.6427876" m12="-0.7660444"
+					m20="0.0" m21="0.7660444" m22="0.6427876"
+					tx="-16.48" ty="12.19" tz="-22.58"/>
 		</screen>
 
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="10" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="10" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
 					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
 					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
-					tx="-15.57" ty="12.19" tz="-27.03"/>
+					tx="-15.57" ty="12.19" tz="-23.28"/>
+		</screen>
+		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="10" type="1" refresh_interval="2.00000000e+00" help_tag="veh_con_screen_air_traffic">
+			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
+					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
+					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
+					   tx="-15.5" ty="14" tz="-24"/>
+		</screen>
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+			<transform
+					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
+					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
+					m20="0.6432695" m21="0.765637" m22="0.0020578"
+					tx="-15.57" ty="12.19" tz="-24.03"/>
+		</screen>
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="11" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+			<transform
+					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
+					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
+					m20="0.6432695" m21="0.765637" m22="0.0020578"
+					tx="-15.57" ty="12.19" tz="-24.78"/>
+		</screen>
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+			<transform
+					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
+					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
+					m20="0.6432695" m21="0.765637" m22="0.0020578"
+					tx="-15.57" ty="12.19" tz="-25.53"/>
+		</screen>
+		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="11" type="1" refresh_interval="2.00000000e+00" help_tag="veh_con_screen_air_traffic">
+			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
+					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
+					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
+					   tx="-15.5" ty="14" tz="-26"/>
 		</screen>
 		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_ship_log.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
@@ -3300,48 +3389,22 @@
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
 					tx="-15.57" ty="12.19" tz="-26.28"/>
 		</screen>
-
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="10" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
-			<transform
-					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
-					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
-					m20="0.6432695" m21="0.765637" m22="0.0020578"
-					tx="-15.57" ty="12.19" tz="-25.53"/>
-		</screen>
-			<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="11" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
-			<transform
-					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
-					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
-					m20="0.6432695" m21="0.765637" m22="0.0020578"
-					tx="-15.57" ty="12.19" tz="-24.78"/>
-		</screen>
 		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="12" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
 					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
 					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
-					tx="-15.57" ty="12.19" tz="-24.03"/>
+					tx="-15.57" ty="12.19" tz="-27.03"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="12" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_propulsion.lua" body_index="0" seat_index="12" type="0" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform
 					m00="0.0020578" m01="0.0009588" m02="-0.9999974"
 					m10="-0.765637" m11="0.6432721" m12="-0.0009588"
 					m20="0.6432695" m21="0.765637" m22="0.0020578"
-					tx="-15.57" ty="12.19" tz="-23.28"/>
+					tx="-15.57" ty="12.19" tz="-27.78"/>
 		</screen>
-		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="12" type="1" refresh_interval="2.00000000e+00" help_tag="veh_con_screen_air_traffic">
-			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
-					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
-					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
-					   tx="-15.5" ty="14" tz="-24"/>
-		</screen>
+		<!-- end specops -->
 
-		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="13" type="1" refresh_interval="2.00000000e+00" help_tag="veh_con_screen_air_traffic">
-			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00"
-					   m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00"
-					   m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08"
-					   tx="-15.5" ty="14" tz="-26"/>
-		</screen>
 	</screens>
 	<doors>
 		<door name="door bridge cent" display_name_loc="0" type="1" sliding_time="60" body_index="0">

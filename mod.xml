@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data name="Fast Air Ops" author="Bredroll" description="
-Launch and recover aircraft more quickly
+<data name="Tactical Operations Centre" author="Bredroll" description="
+
+Add a 3-operator tactical operations room down in the upper hangar bay.
+
+There are 3 operator stations, 2 loadout stations and two
+information screens as well as flight ops overview/docking info.
 
 ">
 </data>
