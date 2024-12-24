@@ -3251,7 +3251,7 @@
 		<screen name="screen_h" display_name_loc="671" script_file_name="scripts/screen_power.lua" body_index="0" seat_index="13" type="0" refresh_interval="8.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-2.40499992e+01" ty="1.51999998e+01" tz="-3.40299988e+01"/>
 		</screen>
-		<screen name="tacops_transmission" display_name_loc="680" script_file_name="scripts/screen_transmissions.lua" body_index="0" seat_index="10" type="0" refresh_interval="8.00000000e+00" help_tag="">
+		<screen name="tacops_transmission" display_name_loc="173" script_file_name="scripts/screen_transmissions.lua" body_index="0" seat_index="10" type="0" refresh_interval="8.00000000e+00" help_tag="">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="6.42787576e-01" m12="-7.66044378e-01" m20="0.00000000e+00" m21="7.66044378e-01" m22="6.42787576e-01" tx="-1.64799995e+01" ty="1.21899996e+01" tz="-2.25799999e+01"/>
 		</screen>
 		<screen name="tacops_left_loadout" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="10" type="0" refresh_interval="6.00000000e+00" help_tag="veh_con_screen_vehicle_control">
@@ -3272,7 +3272,7 @@
 		<screen name="tacops_right_control" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="12" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.70300007e+01"/>
 		</screen>
-		<screen name="holomap_screen2" display_name_loc="517" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="2" refresh_interval="4.00000000e+00" help_tag="holomap_screen_map">
+		<screen name="holomap_screen2" display_name_loc="74" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="2" refresh_interval="4.00000000e+00" help_tag="holomap_screen_map">
 			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="-1.00000000e+00" m11="0.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="1.00000000e+00" m22="0.00000000e+00" tx="-1.52200003e+01" ty="1.33889494e+01" tz="-2.55275936e+01"/>
 		</screen>
 	</screens>
