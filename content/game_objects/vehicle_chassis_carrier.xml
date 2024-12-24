@@ -428,9 +428,6 @@
 			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="-1.50000000e+00" ty="-1.50000000e+00" tz="-3.50000000e+00"/>
 		</mesh>
 		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="-1.50000000e+00" ty="-1.50000000e+00" tz="-4.25000000e+00"/>
-		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="-1.50000000e+00" ty="-1.50000000e+00" tz="-5.00000000e+00"/>
 		</mesh>
 		<mesh file="meshes/aircraft_carrier/bridge_attachments/captains_seat.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
@@ -441,9 +438,6 @@
 		</mesh>
 		<mesh file="meshes/aircraft_carrier/bridge_attachments/thrust_lever.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="-1.79999995e+00" ty="-6.00000024e-01" tz="-4.80000019e+00"/>
-		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
-			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="-1.50000000e+00" ty="-1.50000000e+00" tz="-5.75000000e+00"/>
 		</mesh>
 		<mesh file="meshes/aircraft_carrier/aircraft_carrier_attachments/cruise_missile_silo_top.mesh" name="hangar room" lod="0" body="3" is_paint_dirt="false">
 			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="-1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="2.00000003e-01" ty="0.00000000e+00" tz="0.00000000e+00"/>
@@ -3140,19 +3134,19 @@
 		<screen name="screen_inv_l" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="5" type="0" refresh_interval="4.00000000e+00" help_tag="veh_load_screen_loadout">
 			<transform m00="-2.98023206e-08" m01="2.98023224e-08" m02="1.00000000e+00" m10="7.07106829e-01" m11="7.07106709e-01" m12="-1.09084066e-08" m20="-7.07106769e-01" m21="7.07106829e-01" m22="-4.51475088e-08" tx="-3.20511932e+01" ty="3.01263695e+01" tz="-2.83078995e+01"/>
 		</screen>
-		<screen name="screen_veh_top_m" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="2" type="1" refresh_interval="4" help_tag="veh_con_screen_air_traffic">
+		<screen name="screen_veh_top_m" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="2" type="1" refresh_interval="4.00000000e+00" help_tag="veh_con_screen_air_traffic">
 			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00" m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00" m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08" tx="-2.36389961e+01" ty="3.14163303e+01" tz="-2.79885387e+01"/>
 		</screen>
-		<screen name="screen_nav_top_m" display_name_loc="674" script_file_name="scripts/screen_compass.lua" body_index="0" seat_index="1" type="0" refresh_interval="3" help_tag="helm_screen_compass">
+		<screen name="screen_nav_top_m" display_name_loc="674" script_file_name="scripts/screen_compass.lua" body_index="0" seat_index="1" type="0" refresh_interval="3.00000000e+00" help_tag="helm_screen_compass">
 			<transform m00="9.99999940e-01" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="-7.07106829e-01" m12="-7.07106709e-01" m20="0.00000000e+00" m21="7.07106709e-01" m22="-7.07106829e-01" tx="-2.77511463e+01" ty="3.13671703e+01" tz="-2.28278427e+01"/>
 		</screen>
 		<screen name="holomap_screen" display_name_loc="517" script_file_name="scripts/screen_holomap.lua" body_index="0" seat_index="4" type="2" refresh_interval="1.00000000e+00" help_tag="holomap_screen_map">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00" tx="-2.77694302e+01" ty="2.97049999e+01" tz="-2.68229847e+01"/>
 		</screen>
-		<screen name="screen_nav_top_l" display_name_loc="673" script_file_name="scripts/screen_propulsion.lua" body_index="0" seat_index="1" type="0" refresh_interval="2" help_tag="helm_screen_propulsion">
+		<screen name="screen_nav_top_l" display_name_loc="673" script_file_name="scripts/screen_propulsion.lua" body_index="0" seat_index="1" type="0" refresh_interval="2.00000000e+00" help_tag="helm_screen_propulsion">
 			<transform m00="9.99999940e-01" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="-7.07106829e-01" m12="-7.07106709e-01" m20="0.00000000e+00" m21="7.07106709e-01" m22="-7.07106829e-01" tx="-2.84997025e+01" ty="3.13671703e+01" tz="-2.28292713e+01"/>
 		</screen>
-		<screen name="screen_nav_top_r" display_name_loc="675" script_file_name="scripts/screen_radar.lua" body_index="0" seat_index="1" type="0" refresh_interval="0.5" help_tag="helm_screen_depth_radar">
+		<screen name="screen_nav_top_r" display_name_loc="675" script_file_name="scripts/screen_radar.lua" body_index="0" seat_index="1" type="0" refresh_interval="5.00000000e-01" help_tag="helm_screen_depth_radar">
 			<transform m00="9.99999940e-01" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="-7.07106829e-01" m12="-7.07106709e-01" m20="0.00000000e+00" m21="7.07106709e-01" m22="-7.07106829e-01" tx="-2.70117874e+01" ty="3.13689156e+01" tz="-2.28308144e+01"/>
 		</screen>
 		<screen name="screen_wep_top_m" display_name_loc="677" script_file_name="scripts/screen_weapons_anti_missile.lua" body_index="0" seat_index="7" type="0" refresh_interval="2.00000000e+00" help_tag="def_wep_screen_ciws_status">
@@ -3164,7 +3158,7 @@
 		<screen name="screen_wep_top_r" display_name_loc="678" script_file_name="scripts/screen_weapons_support.lua" body_index="0" seat_index="7" type="0" refresh_interval="2.00000000e+00" help_tag="sup_wep_screen_support">
 			<transform m00="7.07106709e-01" m01="0.00000000e+00" m02="-7.07106709e-01" m10="-4.99999940e-01" m11="-7.07106829e-01" m12="-4.99999940e-01" m20="-5.00000000e-01" m21="7.07106709e-01" m22="-5.00000000e-01" tx="-2.46192589e+01" ty="3.13177414e+01" tz="-2.46293716e+01"/>
 		</screen>
-		<screen name="screen_wep" display_name_loc="679" script_file_name="scripts/screen_vision_radar.lua" body_index="0" seat_index="7" type="0" refresh_interval="0.3" help_tag="nav_wep_screen_radar">
+		<screen name="screen_wep" display_name_loc="679" script_file_name="scripts/screen_vision_radar.lua" body_index="0" seat_index="7" type="0" refresh_interval="3.00000012e-01" help_tag="nav_wep_screen_radar">
 			<transform m00="7.06481099e-01" m01="1.52288377e-03" m02="-7.07730293e-01" m10="-3.56028497e-01" m11="8.65016937e-01" m12="-3.53538692e-01" m20="6.11660242e-01" m21="5.01740456e-01" m22="6.11660242e-01" tx="-2.50619869e+01" ty="2.99701195e+01" tz="-2.39646111e+01"/>
 		</screen>
 		<screen name="screen_veh_m" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="2" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
@@ -3215,37 +3209,28 @@
 		<screen name="screen_h" display_name_loc="671" script_file_name="scripts/screen_power.lua" body_index="0" seat_index="13" type="0" refresh_interval="8.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-2.40499992e+01" ty="1.51999998e+01" tz="-3.40299988e+01"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_transmissions.lua" body_index="0" seat_index="10" type="0" refresh_interval="8.00000000e+00" help_tag="">
+		<screen name="tacops_transmission" display_name_loc="680" script_file_name="scripts/screen_transmissions.lua" body_index="0" seat_index="10" type="0" refresh_interval="8.00000000e+00" help_tag="">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="6.42787576e-01" m12="-7.66044378e-01" m20="0.00000000e+00" m21="7.66044378e-01" m22="6.42787576e-01" tx="-1.64799995e+01" ty="1.21899996e+01" tz="-2.25799999e+01"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="10" type="0" refresh_interval="6.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="tacops_left_loadout" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="10" type="0" refresh_interval="6.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.32800007e+01"/>
 		</screen>
-		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="10" type="1" refresh_interval="6.00000000e+00" help_tag="veh_con_screen_air_traffic">
-			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00" m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00" m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08" tx="-1.55000000e+01" ty="1.40000000e+01" tz="-2.32999992e+01"/>
-		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="10" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="tacops_left_control" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="10" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.40300007e+01"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="11" type="0" refresh_interval="4.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="tacops_middle_loadout" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="11" type="0" refresh_interval="4.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.47800007e+01"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="tacops_middle_control" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.55300007e+01"/>
 		</screen>
 		<screen name="screen_specops_land" display_name_loc="681" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="11" type="1" refresh_interval="6.00000000e+00" help_tag="veh_con_screen_air_traffic">
 			<transform m00="3.09086161e-08" m01="-3.09086197e-08" m02="-1.00000000e+00" m10="-7.07106709e-01" m11="-7.07106650e-01" m12="0.00000000e+00" m20="-7.07106709e-01" m21="7.07106769e-01" m22="-4.37113883e-08" tx="-1.55000000e+01" ty="1.40000000e+01" tz="-2.77000008e+01"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_ship_log.lua" body_index="0" seat_index="11" type="3" refresh_interval="8.00000000e+00" help_tag="veh_con_screen_vehicle_control">
-			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.62800007e+01"/>
-		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="12" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
+		<screen name="tacops_right_control" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="12" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
 			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.70300007e+01"/>
 		</screen>
-		<screen name="screen_h" display_name_loc="680" script_file_name="scripts/screen_propulsion.lua" body_index="0" seat_index="12" type="0" refresh_interval="4.00000000e+00" help_tag="veh_con_screen_vehicle_control">
-			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-1.55699997e+01" ty="1.21899996e+01" tz="-2.77800007e+01"/>
-		</screen>
-		<screen name="holomap_screen2" display_name_loc="517" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="2" refresh_interval="3.00000000e+00" help_tag="holomap_screen_map">
+		<screen name="holomap_screen2" display_name_loc="517" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="11" type="2" refresh_interval="4.00000000e+00" help_tag="holomap_screen_map">
 			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="-1.00000000e+00" m11="0.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="1.00000000e+00" m22="0.00000000e+00" tx="-1.52200003e+01" ty="1.33000002e+01" tz="-2.55000000e+01"/>
 		</screen>
 	</screens>
@@ -3854,10 +3839,10 @@
 			<max_out x="-1.95000000e+01" y="1.71732483e+01" z="-2.93999996e+01"/>
 		</zone>
 		<zone name="audio_zone_land_lift">
-			<min_in x="-3.04771156e+01" y="1.07503386e+01" z="-3.52620010e+01"/>
-			<max_in x="-1.98999996e+01" y="1.42500601e+01" z="-2.95000000e+01"/>
-			<min_out x="-3.05771160e+01" y="1.06503382e+01" z="-3.53619995e+01"/>
-			<max_out x="-1.85000000e+01" y="1.43500605e+01" z="-2.93999996e+01"/>
+			<min_in x="-3.04771156e+01" y="1.07500000e+01" z="-3.52620010e+01"/>
+			<max_in x="-1.40000000e+01" y="1.42500601e+01" z="-2.15000000e+01"/>
+			<min_out x="-3.05769997e+01" y="1.06503382e+01" z="-3.53619995e+01"/>
+			<max_out x="-1.35000000e+01" y="1.43500605e+01" z="-2.10000000e+01"/>
 		</zone>
 		<zone name="audio_zone_bridge_crew">
 			<min_in x="-3.04740009e+01" y="2.89862404e+01" z="-3.82218933e+01"/>
@@ -3906,12 +3891,6 @@
 			<max_in x="-2.04050007e+01" y="1.12302885e+01" z="-1.50000000e+00"/>
 			<min_out x="-3.00823689e+01" y="7.63056517e+00" z="-3.42619820e+01"/>
 			<max_out x="-1.60049992e+01" y="1.13302889e+01" z="-1.39999998e+00"/>
-		</zone>
-		<zone name="audio_zone_specops">
-			<min_in x="-1.50000000e+01" y="1.20000000e+01" z="-2.20000000e+01"/>
-			<max_in x="-1.40000000e+01" y="1.20000000e+01" z="-2.20000000e+01"/>
-			<min_out x="-1.60000000e+01" y="1.00000000e+01" z="-2.21000004e+01"/>
-			<max_out x="-1.38999996e+01" y="1.21000004e+01" z="2.00000000e+01"/>
 		</zone>
 	</audio_zones>
 	<nav_meshes>
