@@ -514,6 +514,30 @@
 		<mesh file="meshes/spaceship/spaceship/spaceship_items_box.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00" tx="-1.54794025e+01" ty="1.19324408e+01" tz="-2.75177078e+01"/>
 		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="3.99364904e-03" m01="4.76500718e-03" m02="9.99980688e-01" m10="-7.66413927e-01" m11="6.42347038e-01" m12="0.00000000e+00" m20="-6.42334640e-01" m21="-7.66399145e-01" m22="6.21727668e-03" tx="-2.83990841e+01" ty="3.00215473e+01" tz="-2.85796661e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="3.99364904e-03" m01="4.76500718e-03" m02="9.99980688e-01" m10="-7.66413927e-01" m11="6.42347038e-01" m12="0.00000000e+00" m20="-6.42334640e-01" m21="-7.66399145e-01" m22="6.21727668e-03" tx="-2.83990841e+01" ty="3.00215473e+01" tz="-2.87798080e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="3.99364904e-03" m01="4.76500718e-03" m02="9.99980688e-01" m10="-7.66413927e-01" m11="6.42347038e-01" m12="0.00000000e+00" m20="-6.42334640e-01" m21="-7.66399145e-01" m22="6.21727668e-03" tx="-2.82022915e+01" ty="2.98577042e+01" tz="-2.87798080e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="3.99364904e-03" m01="4.76500718e-03" m02="9.99980688e-01" m10="-7.66413927e-01" m11="6.42347038e-01" m12="0.00000000e+00" m20="-6.42334640e-01" m21="-7.66399145e-01" m22="6.21727668e-03" tx="-2.82022915e+01" ty="2.98577042e+01" tz="-2.85782547e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="1.00051227e-03" m01="-1.04599912e-03" m02="-9.99998987e-01" m10="7.22644806e-01" m11="6.91219509e-01" m12="0.00000000e+00" m20="6.91218793e-01" m21="-7.22644091e-01" m22="1.44745945e-03" tx="-2.72911167e+01" ty="2.98946762e+01" tz="-2.80653877e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="1.00051227e-03" m01="-1.04599912e-03" m02="-9.99998987e-01" m10="7.22644806e-01" m11="6.91219509e-01" m12="0.00000000e+00" m20="6.91218793e-01" m21="-7.22644091e-01" m22="1.44745945e-03" tx="-2.72911167e+01" ty="2.98946762e+01" tz="-2.82572174e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="1.00051227e-03" m01="-1.04599912e-03" m02="-9.99998987e-01" m10="7.22644806e-01" m11="6.91219509e-01" m12="0.00000000e+00" m20="6.91218793e-01" m21="-7.22644091e-01" m22="1.44745945e-03" tx="-2.71304340e+01" ty="3.00486469e+01" tz="-2.82572174e+01"/>
+		</mesh>
+		<mesh file="meshes/vehicles/attachments/launcher_door_1.mesh" name="mesh" lod="0" body="0" is_paint_dirt="false">
+			<transform m00="1.00051227e-03" m01="-1.04599912e-03" m02="-9.99998987e-01" m10="7.22644806e-01" m11="6.91219509e-01" m12="0.00000000e+00" m20="6.91218793e-01" m21="-7.22644091e-01" m22="1.44745945e-03" tx="-2.71304340e+01" ty="3.00486469e+01" tz="-2.80650482e+01"/>
+		</mesh>
 	</meshes>
 	<wheels/>
 	<attachments>
@@ -3258,9 +3282,9 @@
 			<transform m00="2.98023224e-08" m01="2.98023188e-08" m02="1.00000000e+00" m10="7.07106650e-01" m11="-7.07106888e-01" m12="-1.09084066e-08" m20="7.07106888e-01" m21="7.07106709e-01" m22="-4.51475088e-08" tx="-3.19156075e+01" ty="3.13865261e+01" tz="-2.75836449e+01"/>
 		</screen>
 		<screen name="screen_veh_captchair" display_name_loc="680" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="4" type="3" refresh_interval="1.00000000e+00" help_tag="veh_con_screen_vehicle_control">
-			<transform m00="-1.09574972e-02" m01="-8.30771867e-03" m02="-9.99905407e-01" m10="-6.29083693e-01" m11="7.77337313e-01" m12="4.35327296e-04" m20="7.77260244e-01" m21="6.29029036e-01" m22="-1.37439203e-02" tx="-2.72525539e+01" ty="3.00023499e+01" tz="-2.83173141e+01"/>
+			<transform m00="3.22815916e-03" m01="3.13576707e-03" m02="-9.99989867e-01" m10="-6.96767509e-01" m11="7.17297077e-01" m12="0.00000000e+00" m20="7.17289746e-01" m21="6.96760416e-01" m22="4.50044964e-03" tx="-2.72525539e+01" ty="3.00104809e+01" tz="-2.83173141e+01"/>
 		</screen>
-		<screen name="screen_inv_captchair" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="4" type="3" refresh_interval="4.00000000e+00" help_tag="veh_load_screen_loadout">
+		<screen name="screen_inv_captchair" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="4" type="0" refresh_interval="4.00000000e+00" help_tag="veh_load_screen_loadout">
 			<transform m00="-7.53863668e-03" m01="2.76808354e-08" m02="9.99971569e-01" m10="6.56752527e-01" m11="7.54089832e-01" m12="4.95112734e-03" m20="-7.54068434e-01" m21="6.56771183e-01" m22="-5.68483071e-03" tx="-2.82612877e+01" ty="2.99870567e+01" tz="-2.85229855e+01"/>
 		</screen>
 		<screen name="screen_h" display_name_loc="671" script_file_name="scripts/screen_power.lua" body_index="0" seat_index="13" type="0" refresh_interval="2.00000000e+01" help_tag="veh_con_screen_vehicle_control">
