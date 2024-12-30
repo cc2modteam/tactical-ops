@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data display_name_loc="0" bounding_radius="1.34000000e+02" lod_scale="1.00000000e+00" ai_type="3">
+<data display_name_loc="0" bounding_radius="1.34000000e+02" lod_scale="1.00000000e+00" ai_type="4">
 	<bounding_box>
 		<min x="-4.30000000e+01" y="-2.30000000e+01" z="-9.50000000e+01"/>
 		<max x="4.30000000e+01" y="4.90000000e+01" z="1.20000000e+02"/>
