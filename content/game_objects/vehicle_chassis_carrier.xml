@@ -391,9 +391,6 @@
 		<mesh file="meshes/vehicles/attachments/surface_missile_launcher.mesh" name="vls" lod="0" body="0" is_paint_dirt="true">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="4.22618300e-01" m12="-9.06307817e-01" m20="0.00000000e+00" m21="9.06307817e-01" m22="4.22618300e-01" tx="-2.77000008e+01" ty="2.62000008e+01" tz="-4.85000000e+01"/>
 		</mesh>
-		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="0" is_paint_dirt="false">
-			<transform m00="0.00000000e+00" m01="0.00000000e+00" m02="-1.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="1.00000000e+00" m21="0.00000000e+00" m22="0.00000000e+00" tx="-2.40000000e+01" ty="1.40000000e+01" tz="-3.40000000e+01"/>
-		</mesh>
 		<mesh file="meshes/aircraft_carrier/terminal.mesh" name="hangar terminal" lod="0" body="3" is_paint_dirt="false">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00" tx="-2.50000000e+00" ty="-1.50000000e+00" tz="-5.00000000e-01"/>
 		</mesh>
@@ -3341,7 +3338,7 @@
 		<screen name="screen_veh_ll" display_name_loc="669" script_file_name="scripts/screen_vehicle_control.lua" body_index="0" seat_index="8" type="3" refresh_interval="1.00000000e+00" help_tag="">
 			<transform m00="7.07106769e-01" m01="0.00000000e+00" m02="7.07106769e-01" m10="3.53756279e-01" m11="8.65859687e-01" m12="-3.53756279e-01" m20="-6.12255275e-01" m21="5.00286937e-01" m22="6.12255275e-01" tx="-3.10656242e+01" ty="2.99733772e+01" tz="-2.45621796e+01"/>
 		</screen>
-		<screen name="screen_com_top" display_name_loc="670" script_file_name="scripts/screen_damage.lua" body_index="0" seat_index="8" type="1" refresh_interval="2.00000000e+00" help_tag="repair_screen_repair">
+		<screen name="screen_com_top" display_name_loc="670" script_file_name="scripts/screen_damage.lua" body_index="0" seat_index="9" type="1" refresh_interval="2.00000000e+00" help_tag="repair_screen_repair">
 			<transform m00="7.07106709e-01" m01="0.00000000e+00" m02="7.07106709e-01" m10="4.99999940e-01" m11="-7.07106829e-01" m12="-4.99999940e-01" m20="5.00000000e-01" m21="7.07106709e-01" m22="-5.00000000e-01" tx="-3.04258060e+01" ty="3.14137402e+01" tz="-2.41866302e+01"/>
 		</screen>
 		<screen name="self_destruct_screen" display_name_loc="1361" script_file_name="scripts/screen_self_destruct.lua" body_index="0" seat_index="4294967295" type="0" refresh_interval="2.00000000e+00" help_tag="self_destruct">
@@ -3361,9 +3358,6 @@
 		</screen>
 		<screen name="screen_inv_captchair" display_name_loc="668" script_file_name="scripts/screen_vehicle_loadout.lua" body_index="0" seat_index="4" type="0" refresh_interval="4.00000000e+00" help_tag="veh_load_screen_loadout">
 			<transform m00="-7.53863668e-03" m01="2.76808354e-08" m02="9.99971569e-01" m10="6.56752527e-01" m11="7.54089832e-01" m12="4.95112734e-03" m20="-7.54068434e-01" m21="6.56771183e-01" m22="-5.68483071e-03" tx="-2.82612877e+01" ty="2.99870567e+01" tz="-2.85229855e+01"/>
-		</screen>
-		<screen name="screen_h" display_name_loc="671" script_file_name="scripts/screen_power.lua" body_index="0" seat_index="13" type="0" refresh_interval="2.00000000e+01" help_tag="veh_con_screen_vehicle_control">
-			<transform m00="2.05780007e-03" m01="9.58800025e-04" m02="-9.99997377e-01" m10="-7.65636981e-01" m11="6.43272102e-01" m12="-9.58800025e-04" m20="6.43269479e-01" m21="7.65636981e-01" m22="2.05780007e-03" tx="-2.40499992e+01" ty="1.51999998e+01" tz="-3.40299988e+01"/>
 		</screen>
 		<screen name="tacops_log" display_name_loc="1120" script_file_name="scripts/screen_ship_log.lua" body_index="0" seat_index="10" type="3" refresh_interval="1.20000000e+01" help_tag="">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="6.42787576e-01" m12="-7.66044378e-01" m20="0.00000000e+00" m21="7.66044378e-01" m22="6.42787576e-01" tx="-1.64799995e+01" ty="1.21899996e+01" tz="-2.25799999e+01"/>
