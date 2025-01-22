@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data name="Tactical Operations Centre" author="Bredroll" description="
+<data name="Tactical Carrier" author="Bredroll" description="
 
-Add a 3-operator tactical operations room down in the upper hangar bay.
-
-There are 3 operator stations, 2 loadout stations and two
-information screens as well as flight ops overview/docking info.
-
-Includes Captain's controlls and 4th bridge terminal by Mr Scoot.
+Includes Captain's controls and 4th bridge terminal by Mr Scoot.
 
 Also adds a 4-cell laser-missile VLS if used with Revolution 1.3.11+
 Provides the auto-barge slot for use with Resupply+ and Revolution 1.4+
+
+Adds a chill out room downstairs for the crew to relax between sorties.
 
 ">
 </data>
