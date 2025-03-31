@@ -3440,6 +3440,9 @@
 		<screen name="screen_bridge_torps" display_name_loc="540" script_file_name="scripts/screen_navigation.lua" body_index="0" seat_index="3" type="0" refresh_interval="3.00000000e+01" help_tag="scr_torps">
 			<transform m00="-1.79888566e-08" m01="-3.98382518e-08" m02="-1.00000000e+00" m10="-7.73824334e-01" m11="6.33400023e-01" m12="-1.13133396e-08" m20="6.33400023e-01" m21="7.73824394e-01" m22="-4.22219593e-08" tx="-2.34728794e+01" ty="3.00348644e+01" tz="-2.61543694e+01"/>
 		</screen>
+		<screen name="screen_helm_hud" display_name_loc="791" script_file_name="scripts/screen_navigation.lua" body_index="0" seat_index="4294967295" type="2" refresh_interval="2.00000000e+00" help_tag="">
+			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.30605623e-01" m12="-9.91434395e-01" m20="0.00000000e+00" m21="9.91434395e-01" m22="1.30605623e-01" tx="-2.77235680e+01" ty="3.07140617e+01" tz="-2.19244423e+01"/>
+		</screen>
 	</screens>
 	<doors>
 		<door name="door bridge cent" display_name_loc="0" type="1" sliding_time="60" body_index="0">

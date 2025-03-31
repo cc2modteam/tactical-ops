@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data name="Tactical Operations Centre" author="Bredroll" description="
+<data name="Tactical Operations Centre +" author="Bredroll" description="
+
+Requires Revolution 1.5+
 
 Add a 3-operator tactical operations room down in the upper hangar bay.
 
 There are 3 operator stations, 2 loadout stations and two
 information screens as well as flight ops overview/docking info.
+
+New!  The helm control station gets a basic HUD view!
 
 Includes Captain's controlls and 4th bridge terminal by Mr Scoot.
 
