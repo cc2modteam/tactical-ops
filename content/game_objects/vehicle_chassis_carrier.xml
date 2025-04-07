@@ -3443,6 +3443,15 @@
 		<screen name="screen_helm_hud" display_name_loc="791" script_file_name="scripts/screen_navigation.lua" body_index="0" seat_index="4294967295" type="2" refresh_interval="2.00000000e+00" help_tag="">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.30605623e-01" m12="-9.91434395e-01" m20="0.00000000e+00" m21="9.91434395e-01" m22="1.30605623e-01" tx="-2.77235680e+01" ty="3.07140617e+01" tz="-2.19244423e+01"/>
 		</screen>
+		<screen name="screen_advert" display_name_loc="0" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="4294967295" type="1" refresh_interval="8.00000000e+00" help_tag="">
+			<transform m00="2.58819073e-01" m01="0.00000000e+00" m02="9.65925813e-01" m10="9.65925813e-01" m11="-4.37113883e-08" m12="-2.58819073e-01" m20="4.22219593e-08" m21="1.00000000e+00" m22="-1.13133405e-08" tx="-3.04090843e+01" ty="2.19719486e+01" tz="-3.64785805e+01"/>
+		</screen>
+		<screen name="screen_advert" display_name_loc="0" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="4294967295" type="1" refresh_interval="8.00000000e+00" help_tag="">
+			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="-4.37113883e-08" m12="-1.00000000e+00" m20="0.00000000e+00" m21="1.00000000e+00" m22="-4.37113883e-08" tx="-2.74234238e+01" ty="1.89970036e+01" tz="-3.05289230e+01"/>
+		</screen>
+		<screen name="screen_advert" display_name_loc="0" script_file_name="scripts/screen_landing.lua" body_index="0" seat_index="4294967295" type="1" refresh_interval="8.00000000e+00" help_tag="">
+			<transform m00="-1.00000000e+00" m01="-8.74227766e-08" m02="-1.74845567e-07" m10="-1.74845567e-07" m11="-2.35969875e-08" m12="1.00000000e+00" m20="-8.74227837e-08" m21="1.00000000e+00" m22="2.35969715e-08" tx="-2.77270947e+01" ty="3.15300026e+01" tz="-3.32860565e+01"/>
+		</screen>
 	</screens>
 	<doors>
 		<door name="door bridge cent" display_name_loc="0" type="1" sliding_time="60" body_index="0">
