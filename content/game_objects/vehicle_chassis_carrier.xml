@@ -3916,7 +3916,17 @@
 			<vel_b x="0.00000000e+00" y="0.00000000e+00" z="0.00000000e+00"/>
 		</graph_link>
 	</graph_links>
-	<foam_emitters/>
+	<foam_emitters>
+		<foam_emitter body_index="0" radius="3.20000000e+01" foam_scale="1.60000000e+01">
+			<position x="-8.00000000e+00" y="-9.80041599e+00" z="-4.36671829e+01"/>
+		</foam_emitter>
+		<foam_emitter body_index="0" radius="3.20000000e+01" foam_scale="1.60000000e+01">
+			<position x="0.00000000e+00" y="-9.80041599e+00" z="-4.36671829e+01"/>
+		</foam_emitter>
+		<foam_emitter body_index="0" radius="3.20000000e+01" foam_scale="1.60000000e+01">
+			<position x="8.00000000e+00" y="-9.80041599e+00" z="-4.36671829e+01"/>
+		</foam_emitter>
+	</foam_emitters>
 	<particle_emitters>
 		<particle_emitter name="node" body_index="4294967295" life="300" velocity="1.00000000e+00" magnitude="1.00000000e+00" rise="0.00000000e+00" color="FFFFFFFF">
 			<transform m00="1.00000000e+00" m01="0.00000000e+00" m02="0.00000000e+00" m10="0.00000000e+00" m11="1.00000000e+00" m12="0.00000000e+00" m20="0.00000000e+00" m21="0.00000000e+00" m22="1.00000000e+00" tx="-2.91998940e+01" ty="4.12621613e+01" tz="-3.94946861e+01"/>
