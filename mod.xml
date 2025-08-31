@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data name="Tactical Operations Centre 1.5" author="Bredroll" description="
+<data name="Tactical Operations Centre 1.5 HD" author="Bredroll" description="
 Requires Revolution 1.5+
 
 This is the Epsilon class carrier mid-life extension program phase 2.
+
+The RADAR screen and some of the bridge consoles have been updated to a higher resolution.
 
 Bridge gains a basic HUD for the Helm position showing compass course and island info.
 Swapped positions of aft CIWS and torpedo launchers to give greater coverage.
